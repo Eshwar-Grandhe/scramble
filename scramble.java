@@ -7,7 +7,7 @@ import javax.swing.text.BadLocationException;
 import javax.swing.text.PlainDocument;
 
 import java.awt.*;
-class awt extends JFrame implements ActionListener,KeyListener
+class scramble extends JFrame implements ActionListener,KeyListener
 {
 JTextField[][] t=new JTextField[15][15];
 ArrayList<String> storage;
@@ -1138,7 +1138,7 @@ public class FixedSizeDocument extends PlainDocument
 }
 public static void main(String args[])
 {
-	new awt();
+	new scramble();
 }
 }
 
